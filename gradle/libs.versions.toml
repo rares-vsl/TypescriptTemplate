@@ -10,7 +10,7 @@ ktor = "3.2.3"
 kotlinxSerialization = "1.9.25"
 coroutines = "1.10.2"
 logback = "1.5.18"
-kmongo = "5.2.1"
+kmongo = "5.5.1"
 
 
 [libraries]
