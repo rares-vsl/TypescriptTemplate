@@ -1,7 +1,6 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>DanySK/renovate-config:default.json",
-    "github>DanySK/renovate-config:docker-image.json",
-    "github>DanySK/renovate-config:kotlin.json"
+    "config:recommended"
   ]
 }
