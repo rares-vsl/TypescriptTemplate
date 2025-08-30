@@ -1,2 +1,1 @@
 # TypescriptTemplate
-Typescript Build Template
