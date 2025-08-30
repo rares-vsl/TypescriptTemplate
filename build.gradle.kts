@@ -9,13 +9,13 @@ plugins {
 
 buildscript {
     dependencies {
-        classpath("io.github.andreabrighi:conventional-commit-strategy-for-git-sensitive-semantic-versioning-gradle-plugin:1.0.15")
+        classpath("io.github.andreabrighi:conventional-commit-strategy-for-git-sensitive-semantic-versioning-gradle-plugin:1.0.0")
     }
 }
 
 gitSemVer {
     commitNameBasedUpdateStrategy(ConventionalCommit::semanticVersionUpdate)
-    assignGitSemanticVersion()
+    minimumVersion.set("0.1.0")
 }
 
 node {
